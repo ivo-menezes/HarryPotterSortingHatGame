@@ -1,4 +1,3 @@
-
 points = {'Gryffindor': 0, 'Ravenclaw': 0, 'Hufflepuff': 0, 'Slytherin': 0}
 
 print("Q1) Do you like Dawn or Dusk?")
@@ -35,7 +34,6 @@ elif answer == '4':
 else:
     print("Wrong input.")
 
-
 print("Q3) Which kind of instrument most pleases your ear?")
 print("   1) The violin")
 print("   2) The trumpet")
@@ -59,3 +57,4 @@ else:
 print("Points for each house:")
 for house, point in points.items():
     print(f"{house}: {point}")
+
